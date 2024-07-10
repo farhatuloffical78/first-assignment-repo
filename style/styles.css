@@ -220,3 +220,47 @@ body{
     margin-top: 20px;
     margin-left: 10px;
 }
+
+.two{
+    width: 1000px;
+    height: 777px;
+    margin: 0 195px;
+    margin-top: 50px;
+}
+.text10{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 27px;
+
+}
+.text11{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.youtube-link {
+    height: 614px;
+    margin-top: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+.frame{
+    border-radius: 8px;
+}
+.youtube-link iframe {
+    display: block;
+    width: 100%; 
+    height: 100%; 
+}
