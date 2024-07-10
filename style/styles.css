@@ -82,9 +82,7 @@ body{
     font-size: 15px;
 
 }
-/* #last{
-    color: rgb(255, 255, 255);
-} */
+
 /* main body part */
 .one{
     width: 1000px;
@@ -342,11 +340,11 @@ a{
     margin-top: 100px;
     margin: 0 195px;
     border-radius: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* black gradient overlay */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* used for black gradient overlay */
     url('../assets/handshake.jpg');
     background-repeat: no-repeat;
-    background-size: cover; /* or try different options */
-    background-position: center; /* adjust as needed */
+    background-size: cover; 
+    background-position: center; 
     text-align: center;
       
 }
@@ -377,5 +375,81 @@ a{
     font-size: 12px;
     font-weight: 400;
 
+
+}
+
+
+
+.info form {
+    display: inline-block; 
+}
+
+.text16{
+    color: rgba(13, 19, 33, 0.4);
+
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px; 
+    box-sizing: border-box; 
+    padding: 9px; 
+    border: none;
+    margin-top: 41px;
+    letter-spacing: 0%;
+    height: 55px;
+    width: 480px; 
+    border-radius: 8px;
+    
+}
+    
+.submit {
+    color: rgb(13, 19, 33);
+    
+    font-size: 18px;
+    font-weight: 600;
+    height: 55px;
+    width: 120px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box; 
+    padding: 9px; 
+    border: none;
+    margin-top: 41px;
+    
+}
+
+
+.fromm input[type="text"],
+.fromm input[type="submit"] {
+    vertical-align: middle;
+}
+
+.last{
+    width: 1368px;
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+
+}
+.last1{
+    width: 50%;
+    margin-right: 50px;
+    gap: 5px;
+    display: flex;
+    justify-content: end;
+
+}
+.text17{
+    width: 50%;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    letter-spacing: 0%;
+    padding-top: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
 
 }
